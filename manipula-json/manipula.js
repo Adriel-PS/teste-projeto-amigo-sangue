@@ -9,8 +9,17 @@ const fs = require('fs')
 //email_user = user.email
 //id_user = user.id
 
+function log(data){
+    console.log(data)
+}
 
-fs.readFile('./user.json', 'utf-8',(err,id)>{
-    console.log(id)
+function console(data){
+    return "<script>console.log(\""+data+"\");</script>";
+  }
+
+fs.readFile('./user.json', 'utf-8' (error , data)>{
+    console(data);
+    console.log(data);
+    
 })
 
