@@ -1,0 +1,25 @@
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    background:rgb(80, 219, 184);
+    height: 100px;
+}
+
+.menu{
+    left: 100px;
+}
+
+.title{
+   text-align: center;
+}
+
+.texto{
+    margin-top: 10%;
+}
+
+#titulo{
+    text-align: center;
+}
